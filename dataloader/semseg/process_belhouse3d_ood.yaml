@@ -18,4 +18,4 @@ VAL:
 
 TEST:
     NPTS: 2048
-    HOUSES: ['House27','House28','House29','House30','House31','House32']
+    HOUSES: ['House27']
