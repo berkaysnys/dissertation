@@ -10,14 +10,12 @@ BLOCK:
     NPTS: 2048
 
 TRAIN:
-    HOUSES: ['House1','House2','House3','House4','House5','House6','House7',
-            'House8','House9','House10','House11','House12','House13','House14',
-            'House15','House16','House17','House18','House19','House20']
+    HOUSES: ['House1','House2','House3']
 
 VAL:
     NPTS: 2048
-    HOUSES: ['House21','House22','House23','House24','House25','House26']
+    HOUSES: ['House4']
 
 TEST:
     NPTS: 2048
-    HOUSES: ['House27','House28','House29','House30','House31','House32']
+    HOUSES: ['House27']
