@@ -1,7 +1,7 @@
 DATA:
-    META_FILE: 'content/code_root/data/belhouse3d/raw/belhouse3d_classnames.txt'
-    RAW_DIR: 'content/code_root/data/belhouse3d/raw/OOD-occluded/'
-    PROCESSED_DIR: 'content/code_root/data/belhouse3d/processed/semseg/OOD-occluded/'
+    META_FILE: '/content/code_root/data/belhouse3d/raw/belhouse3d_classnames.txt'
+    RAW_DIR: '/content/code_root/data/belhouse3d/raw/OOD-occluded/'
+    PROCESSED_DIR: '/content/code_root/data/belhouse3d/processed/semseg/OOD-occluded/'
 
 BLOCK:
     SIZE: 1    # meter x meter x meter
