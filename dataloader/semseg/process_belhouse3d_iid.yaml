@@ -10,11 +10,11 @@ BLOCK:
     NPTS: 2048
 
 TRAIN:
-    HOUSES: ['House1','House2','House3']
+    HOUSES: ['House1','House2','House3','House4']
 
 VAL:
     NPTS: 2048
-    HOUSES: ['House4']
+    HOUSES: ['House5']
 
 TEST:
     NPTS: 2048
