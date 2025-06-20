@@ -12,6 +12,7 @@ import pickle
 import yaml
 from itertools import  combinations
 from pyntcloud import PyntCloud
+import shutil
 
 from utils import *
 
@@ -126,6 +127,15 @@ if __name__ == "__main__":
             for i, block_data in enumerate(blocks_list):
                 block_filename = out_filename[:-4] + '_block_' + str(i) + '.npy'
                 np.save(os.path.join(block_out_folderpath, block_filename), block_data)
+
+        house_path = os.path.join(DATA_PATH, folder)
+        try:
+            print(f"\nDeleting raw house folder: {house_path}")
+            shutil.rmtree(house_path)
+            print(f"Deleted: {folder}")
+        except Exception as e:
+            print(f"Failed to delete {folder}: {e}")
+
 
                 # === End for loop classes ===
             # === End for loop blocks ===
