@@ -14,7 +14,7 @@ TRAIN:
 
 VAL:
     NPTS: 2048
-    HOUSES: ['House21']
+    HOUSES: ['House12']
 
 TEST:
     NPTS: 2048
